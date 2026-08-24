@@ -1,0 +1,124 @@
+    /* resetar a página */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* estilização do corpo da página */
+body{
+    background: linear-gradient(to bottom,#f3e8ff,#ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+/* estilização do container */
+.container{
+    width: 400px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+
+}
+
+/* estilização do título da página */
+h1{
+    text-align: center;
+    color: #6a0dad;
+    margin-bottom: 10px;
+
+}
+
+/* estilização do conteúdo do container */
+.container p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* estilização do label */
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+/* estilização do input */
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+/* estilização do select */
+select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+/* estilização do botão */
+button{
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right,#6a0dad,#8a2be2);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+/* estilização do botão quando o mouse passar sobre */
+button:hover{
+    opacity: 0.9;
+
+}
+
+/* estilização do link */
+.login{
+    margin-top: 20px;
+
+}
+
+/* estilização do link quando o mouse passar sobre */
+.login a{
+    color: #6a0dad;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+/* estilização do link quando o mouse passar sobre */
+.login a:hover{
+    text-decoration: underline;
+
+}
+
+/* estilização do botão voltar */
+.voltar{
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #6a0dad;
+
+}
+
+/* estilização do botão quando o mouse passar sobre */
+.voltar:hover{
+    text-decoration: underline;
+
+}

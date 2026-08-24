@@ -1,0 +1,103 @@
+    /* resetar a página */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+/* estilização do corpo da página */
+body{
+    background:linear-gradient(to bottom,#f3e8ff,#ffffff);
+
+}
+
+/* estilização do cabeçalho */
+header{
+    background:linear-gradient(to right,#6a0dad,#8a2be2);
+    color:white;
+    text-align:center;
+    padding:20px;
+
+}
+
+/* estilização do conteúdo da página */
+main{
+    width:80%;
+    margin:40px auto;
+
+}
+
+/* estilização do título da página */
+h2{
+    text-align:center;
+    color:#6a0dad;
+    margin-bottom:20px;
+
+}
+
+/* estilização do input */
+input{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    margin-bottom:15px;
+
+}
+
+/* estilização do botão */
+button{
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    background:linear-gradient(to right,#6a0dad,#8a2be2);
+    color:white;
+    cursor:pointer;
+    margin-bottom:20px;
+
+}
+
+/* estilização do botão quando o mouse passar sobre */
+button:hover{
+    opacity:.9;
+
+}
+
+/* estilização do card */
+.card{
+    background:white;
+    border:1px solid #ccc;
+    border-radius:8px;
+    padding:20px;
+    margin-bottom:20px;
+
+}
+
+.card h3{
+    color:#6a0dad;
+    margin-bottom:10px;
+
+}
+
+.card p{
+    margin-bottom:15px;
+
+}
+
+/* estilização do botão voltar */
+.voltar{
+    display:block;
+    text-align:center;
+    margin-top:30px;
+    text-decoration:none;
+    color:#6a0dad;
+
+}
+
+/* estilização do botão quando o mouse passar sobre */
+.voltar:hover{
+    text-decoration:underline;
+
+}

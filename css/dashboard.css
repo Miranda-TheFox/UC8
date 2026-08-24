@@ -1,0 +1,110 @@
+    /* resetar a página */
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* estilização do corpo da página */
+body {
+    background: linear-gradient(to bottom, #f3e8ff, #ffffff);
+
+}
+
+/* estilização do cabeçalho */
+header {
+    background: linear-gradient(to right, #6a0dad, #8a2be2);
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+/* estilização do conteúdo da página */
+main {
+    width: 80%;
+    margin: 40px auto;
+
+}
+
+/* estilização do título da página */
+h2 {
+    text-align: center;
+    color: #6a0dad;
+    margin-bottom: 30px;
+
+}
+
+/* estilização do div com o formulário de cadastro */
+.cadastro {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+
+}
+
+/* estilização do input */
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+/* estilização do botão */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #6a0dad, #8a2be2);
+    color: white;
+    cursor: pointer;
+
+}
+
+button:hover {
+    opacity: 0.9;
+
+}
+
+/* estilização do ul */
+ul {
+    list-style: none;
+
+}
+
+/* estilização do li */
+li {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+
+}
+
+/* estilização do botão do li */
+li button {
+    margin-left: 10px;
+
+}
+
+/* estilização do botão voltar */
+.voltar {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    color: #6a0dad;
+    text-decoration: none;
+
+}
+
+/* estilização do botão quando o mouse passar sobre */
+.voltar:hover {
+    text-decoration: underline;
+
+}

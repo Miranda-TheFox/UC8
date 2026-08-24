@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliente</title>
+
+    <!-- Link para o arquivo css -->
+    <link rel="icon" type="image/png" href="img/devfinder.png">
+
+    <!-- Link para o arquivo js -->
+    <link rel="stylesheet" href="css/cliente.css"> 
+</head>
+
+    <!-- Conteúdo da página -->
+<body>
+
+    <!-- Conteúdo da página -->
+    <main>
+
+        <!-- Título da página -->
+    <h2>Protótipos Disponíveis</h2>
+
+        <!-- Campo para pesquisar protótipos -->
+    <input
+        type="text"
+        id="pesquisa"
+        placeholder="Pesquisar protótipo">
+
+
+        <!-- Botão para pesquisar protótipos -->
+    <button onclick="pesquisar()">
+        Pesquisar
+    </button>
+
+        <!-- Lista com os projetos -->
+    <div id="projetos">
+
+        <div class="card">
+
+            <h3>App Delivery</h3>
+
+            <p>Autor: João Silva</p>
+
+            <button onclick="visualizar('App Delivery')">
+                Visualizar
+            </button>
+
+        </div>
+
+        <!-- Card com o projeto -->
+        <div class="card">
+
+            <h3>Loja Virtual</h3>
+
+            <p>Autor: Maria Souza</p>
+
+            <button onclick="visualizar('Loja Virtual')">
+                Visualizar
+            </button>
+
+        </div>
+
+        <!-- Card com o projeto -->
+        <div class="card">
+
+            <h3>Sistema Financeiro</h3>
+
+            <p>Autor: Pedro Santos</p>
+
+            <button onclick="visualizar('Sistema Financeiro')">
+                Visualizar
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- Link para voltar para o inicio -->
+    <a href="DevFinder.html" class="voltar">
+
+        Voltar para Início
+
+    </a>
+
+</main>
+
+    <!-- Script para o JS -->
+<script src="cliente.js"></script>
+
+
+</html>

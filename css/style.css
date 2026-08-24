@@ -1,0 +1,106 @@
+/* resetar a página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* estilização do corpo da página */
+body {
+    background: linear-gradient(to bottom, #f3e8ff, #ffffff);
+}
+
+/* estilização de cabeçalho */
+header {
+    background: linear-gradient(to right, #6a0dad, #8a2be2, #d148d6);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+}
+
+
+/* menu de navegação */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* estilização do conteúdo da página */
+.inicio {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+
+
+.inicio h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: #4b0082;
+}
+
+.inicio p {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+
+/* estilização do botão principal */
+.botao {
+    background: linear-gradient(to right, #6a0dad, #8a2be2, #d148d6);
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+
+/* estilização da seção sobre */
+.sobre {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.sobre h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4b0082;
+}
+
+
+/* estilização dos cards */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #6a0dad;
+}
+
+
+/* estilização do rodapé */
+footer {
+    background: linear-gradient(to right, #6a0dad, #8a2be2, #d148d6);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 15px;
+}

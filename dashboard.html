@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <!-- Link para o arquivo css -->
+    <link rel="stylesheet" href="css/dashboard.css">
+
+    <!-- Link para o arquivo js -->
+    <link rel="icon" type="image/png" href="img/devfinder.png">
+</head>
+
+    <!-- Conteúdo da página -->
+<body>
+
+    <!-- Cabecalho da página -->
+    <header>
+
+        <h1>DevFinder</h1>
+
+    </header>
+
+    <!-- Conteúdo da página -->
+    <main>
+
+        <h2>Meus Protótipos</h2>
+
+        <!-- Div com o formulário de cadastro -->
+        <div class="cadastro">
+
+            <!-- Campo para o nome do projeto -->
+            <input type="text" id="nomeProjeto" placeholder="Nome do protótipo">
+
+            <!-- Botão para adicionar projeto -->
+            <button onclick="adicionarProjeto()">
+                Adicionar
+            </button>
+
+        </div>
+
+        <!-- Lista com os projetos -->
+        <ul id="lista">
+
+            <!-- Card com o projeto -->
+            <li>
+
+                App Delivery
+
+                <!-- Botão para editar projeto -->
+                <button onclick="editarProjeto(this)">
+                    Editar
+                </button>
+
+                <!-- Botão para excluir projeto -->
+                <button onclick="removerProjeto(this)">
+                    Excluir
+                </button>
+
+            </li>
+
+            <!-- Card com o projeto -->
+            <li>
+
+                Loja Virtual
+
+                <!-- Botão para editar projeto -->
+                <button onclick="editarProjeto(this)">
+                    Editar
+                </button>
+
+                <!-- Botão para excluir projeto -->
+                <button onclick="removerProjeto(this)">
+                    Excluir
+                </button>
+
+            </li>
+
+        </ul>
+
+        <!-- Link para voltar para o inicio -->
+        <a href="DevFinder.html" class="voltar">
+            Voltar para Início
+        </a>
+
+    </main>
+
+    <!-- Script para o JS -->
+    <script src="dashboard.js"></script>
+</body>
+
+</html>
